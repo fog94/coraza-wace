@@ -1,4 +1,4 @@
-module github.com/fog94/coraza-wace/v1
+module github.com/fog94/coraza-wace
 
 go 1.16
 
