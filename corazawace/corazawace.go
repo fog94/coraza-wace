@@ -5,6 +5,7 @@ import (
 
 	"github.com/corazawaf/coraza/v2"
 	"github.com/corazawaf/coraza/v2/operators"
+	"github.com/corazawaf/coraza/v2/types/variables"
 )
 
 type wace struct {
