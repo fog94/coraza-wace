@@ -17,6 +17,7 @@ func (o *wace) Init(data string) error {
 
 func (o *wace) Evaluate(tx *coraza.Transaction, value string) bool {
 	//res, capture := isSQLi(value)
+	fmt.Println("From the wace plugin")
 	a := tx.GetCollection(variables.FullRequest).Data()
 	for key, value := range a {
 		fmt.Print(key)
