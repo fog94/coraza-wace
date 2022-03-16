@@ -1,4 +1,4 @@
-package waceplugin
+package corazawace
 
 import (
 	"fmt"
